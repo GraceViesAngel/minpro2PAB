@@ -398,3 +398,18 @@ Contoh pesan yang muncul:
 
 Validasi ini memastikan bahwa data soal yang disimpan ke dalam database sudah lengkap sehingga dapat ditampilkan dengan benar pada halaman kuis.
 
+### 5. Validasi pada Form Edit Soal (Admin)
+
+<img width="200" height="430" alt="Image" src="https://github.com/user-attachments/assets/1b64d274-9c1e-4c41-8313-49fe1aed6136" />
+
+Selain menambahkan soal baru, admin juga dapat mengedit soal yang sudah ada. Pada proses ini, sistem tetap melakukan pengecekan agar data soal tidak diubah menjadi kosong.
+
+a. Validasi Data Soal Tidak Boleh Kosong
+
+Jika admin menghapus isi salah satu kolom seperti pertanyaan atau pilihan jawaban kemudian menekan tombol Simpan, maka aplikasi akan menampilkan pesan peringatan.
+
+Contoh pesan yang muncul:
+
+Semua kolom harus diisi
+
+Validasi ini bertujuan untuk menjaga agar data soal yang tersimpan di database tetap lengkap dan dapat digunakan dengan baik saat proses kuis berlangsung.
