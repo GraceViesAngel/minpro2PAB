@@ -40,6 +40,24 @@ class _AdminFormQuestionPageState extends State<AdminFormQuestionPage> {
   }
 
   Future<void> save() async {
+    // VALIDASI INPUT
+    if (kategori.text.isEmpty ||
+        question.text.isEmpty ||
+        a.text.isEmpty ||
+        b.text.isEmpty ||
+        c.text.isEmpty ||
+        d.text.isEmpty ||
+        answer.text.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text("Semua kolom harus diisi"),
+          backgroundColor: Colors.red,
+        ),
+      );
+
+      return;
+    }
+
     final data = {
       "kategori": kategori.text,
       "question": question.text,
