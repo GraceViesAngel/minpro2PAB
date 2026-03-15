@@ -317,8 +317,13 @@ Pada aplikasi kuis literasi digital ini saya menggunakan beberapa widget utama d
 
 <img width="260" height="500" alt="Image" src="https://github.com/user-attachments/assets/7e0f864b-8383-4bb1-ac46-10edee18e5ba" />
 
+---
+
 • Halaman Edit Soal (Admin)
 
-<img width="468" height="907" alt="Image" src="https://github.com/user-attachments/assets/3b66daa5-9f5d-4f3d-95da-22f070d47d29" />
+<img width="260" height="500" alt="Image" src="https://github.com/user-attachments/assets/3b66daa5-9f5d-4f3d-95da-22f070d47d29" />
+
+---
+
 
 
