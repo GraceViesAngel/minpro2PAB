@@ -267,7 +267,7 @@ Pada aplikasi kuis literasi digital ini saya menggunakan beberapa widget utama d
 
 • Halaman Login
 
-<img width="300" height="500" alt="Image" src="https://github.com/user-attachments/assets/49ac19a7-2ec7-45d4-9c17-3caaf81e3e69" />
+<img width="260" height="500" alt="Image" src="https://github.com/user-attachments/assets/49ac19a7-2ec7-45d4-9c17-3caaf81e3e69" />
 
 • Halaman Register
 
