@@ -260,3 +260,47 @@ Pada aplikasi kuis literasi digital ini saya menggunakan beberapa widget utama d
 | Navigator | Digunakan untuk mengatur perpindahan halaman seperti dari login ke home atau dari materi ke halaman kuis. |
 | BackdropFilter | Digunakan untuk memberikan efek blur atau glass effect pada beberapa komponen tampilan aplikasi. |
 | AlertDialog | Digunakan untuk menampilkan hasil skor kuis setelah pengguna menyelesaikan semua soal. |gunakan untuk membuat efek glass atau blur pada beberapa komponen tampilan. |
+
+---
+
+## 🖥️ Tampilan Aplikasi
+
+• Halaman Login
+
+![Login](link_gambar)
+
+• Halaman Register
+
+![Register](link_gambar)
+
+• Halaman Home
+
+![Home](link_gambar)
+
+• Halaman Materi
+
+![Materi](link_gambar)
+
+• Halaman Kuis
+
+![Quiz](link_gambar)
+
+• Tampilan Hasil Skor
+
+![Skor](link_gambar)
+
+• Halaman Profile (User)
+
+![Profile](link_gambar)
+
+• Halaman Kelola Soal (Admin)
+
+![Admin](link_gambar)
+
+• Halaman Tambah Soal (Admin)
+
+![Tambah Soal](link_gambar)
+
+• Halaman Edit Soal (Admin)
+
+![Edit Soal](link_gambar)
