@@ -44,7 +44,7 @@ Pada aplikasi ini terdapat file:
 
 `question_model.dart`
 
-
+<img width="176" height="48" alt="Image" src="https://github.com/user-attachments/assets/8f9cacf6-855c-469f-a7b5-7d46fa9461a8" />
 
 File ini digunakan untuk merepresentasikan struktur data **soal kuis** yang tersimpan di database Supabase, seperti:
 
