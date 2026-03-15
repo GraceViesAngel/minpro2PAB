@@ -37,6 +37,14 @@ Folder **lib** merupakan bagian paling penting dalam project karena seluruh kode
 
 ---
 
+### ⚙️ Folder Controllers
+
+<img width="171" height="50" alt="Image" src="https://github.com/user-attachments/assets/0a31fcaa-506b-4bdc-a81f-7a5ab218f11d" />
+
+Folder **controllers** saya gunakan untuk menempatkan logika yang mengatur jalannya kuis di dalam aplikasi. Pada folder ini terdapat file `quiz_controller.dart` yang berfungsi membantu mengelola proses kuis seperti mengambil data soal dari database, mengatur perpindahan soal, serta menghitung skor pengguna setelah kuis selesai dikerjakan. Dengan memisahkan logika tersebut ke dalam controller, kode pada halaman tampilan menjadi lebih rapi dan lebih mudah untuk dipahami.
+
+---
+
 ### 🧠 Folder `models`
 
 Folder **models** digunakan untuk menyimpan struktur data yang digunakan dalam aplikasi.  
@@ -92,30 +100,21 @@ Beberapa halaman yang terdapat di dalamnya antara lain:
 
 ---
 
-### 🚀 File `main.dart`
+### 🔗 Folder Services
 
-File **main.dart** merupakan file utama dalam aplikasi Flutter yang pertama kali dijalankan saat aplikasi dibuka.
-
-Pada file ini saya melakukan beberapa konfigurasi penting seperti:
-
-- Inisialisasi **Supabase**
-- Menentukan halaman awal aplikasi
-- Mengatur navigasi antar halaman
-
-Sehingga aplikasi dapat berjalan dengan baik sejak pertama kali dijalankan.
+Folder **services** saya gunakan untuk mengatur proses komunikasi antara aplikasi dengan database **Supabase**. Di dalam folder ini terdapat file `supabase_service.dart` yang berisi beberapa fungsi yang saya gunakan untuk mengakses database, seperti proses login, register, mengambil data soal, menambahkan soal baru, mengubah soal, serta menghapus soal. Dengan memisahkan bagian ini ke dalam services, pengelolaan akses database menjadi lebih terstruktur dan tidak tercampur langsung dengan kode tampilan pada halaman aplikasi.
 
 ---
 
-### 🖼️ Folder `assets`
+### 🚀 File main.dart
 
-Selain folder kode program, aplikasi ini juga menggunakan folder **assets** yang berisi berbagai file tambahan untuk mendukung tampilan aplikasi.
+File `main.dart` merupakan file utama dalam aplikasi Flutter yang pertama kali dijalankan ketika aplikasi dibuka. Pada file ini saya mengatur konfigurasi awal aplikasi, seperti proses inisialisasi Supabase agar aplikasi dapat terhubung dengan database yang digunakan. Selain itu, di dalam file ini juga ditentukan halaman awal yang akan ditampilkan ketika aplikasi dijalankan serta pengaturan navigasi antar halaman sehingga pengguna dapat berpindah dari satu halaman ke halaman lainnya dengan lancar.
 
-Di dalam folder ini terdapat beberapa file seperti:
+---
 
-- **images** → berisi gambar background yang digunakan dalam aplikasi  
-- **font** → font tambahan yang digunakan untuk mempercantik tampilan aplikasi
+### 🖼️ Folder Assets
 
-Gambar-gambar ini digunakan pada beberapa halaman seperti **home, materi, kuis, dan halaman admin** agar tampilan aplikasi terlihat lebih menarik.
+Selain kode program utama, aplikasi ini juga menggunakan folder **assets** yang berisi berbagai gambar yang digunakan untuk mempercantik tampilan aplikasi. Gambar-gambar tersebut digunakan sebagai background pada beberapa halaman seperti halaman home, materi, kuis, serta halaman admin. Dengan penggunaan gambar pada folder assets ini, tampilan aplikasi menjadi lebih menarik dan tidak terlihat terlalu kosong saat digunakan.
 
 ---
 
