@@ -306,7 +306,7 @@ Pada aplikasi kuis literasi digital yang saya kembangkan, beberapa halaman dilen
 
 ### 1. Validasi pada Halaman Login
 
-<img width="573" height="909" alt="Image" src="https://github.com/user-attachments/assets/494e2462-3c7a-46ea-91a5-0c9ba42c2d48" />
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/494e2462-3c7a-46ea-91a5-0c9ba42c2d48" />
 
 Halaman login digunakan oleh pengguna untuk masuk ke dalam aplikasi menggunakan akun yang sudah terdaftar. Pada halaman ini terdapat validasi yang akan memeriksa apakah data yang dimasukkan sesuai dengan data akun yang tersimpan pada sistem.
 
@@ -324,7 +324,7 @@ Validasi ini bertujuan untuk memastikan bahwa hanya pengguna yang memiliki akun 
 
 ### 2. Validasi pada Halaman Register
 
-<img width="469" height="905" alt="Image" src="https://github.com/user-attachments/assets/161efd89-9ad8-4ee9-9063-b82c2385dd0c" />
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/161efd89-9ad8-4ee9-9063-b82c2385dd0c" />
 
 Halaman register digunakan untuk membuat akun baru sebelum pengguna dapat menggunakan aplikasi. Pada halaman ini terdapat beberapa validasi yang digunakan untuk memastikan data yang dimasukkan sudah benar.
 
@@ -366,7 +366,7 @@ Tujuan dari validasi ini adalah untuk meningkatkan keamanan akun pengguna.
 
 ### 3. Validasi pada Halaman Update Password
 
-<img width="573" height="906" alt="Image" src="https://github.com/user-attachments/assets/b8fa6b0a-dc43-48bd-8e33-029e9e022a7d" />
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/b8fa6b0a-dc43-48bd-8e33-029e9e022a7d" />
 
 Pada halaman profil, pengguna dapat mengganti password akun yang sedang digunakan. Saat proses ini dilakukan, aplikasi akan memeriksa apakah password lama yang dimasukkan sudah benar.
 
@@ -384,7 +384,7 @@ Validasi ini bertujuan untuk memastikan bahwa perubahan password hanya dapat dil
 
 ### 4. Validasi pada Form Tambah dan Edit Soal (Admin)
 
-<img width="569" height="904" alt="Image" src="https://github.com/user-attachments/assets/ab832593-ac4c-4c2d-b28d-b5aefdccbf6e" />
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/ab832593-ac4c-4c2d-b28d-b5aefdccbf6e" />
 
 Pada halaman admin, terdapat form yang digunakan untuk menambahkan atau mengedit soal kuis. Form ini memiliki beberapa kolom seperti kategori soal, pertanyaan, pilihan jawaban, serta jawaban yang benar. Untuk memastikan data yang dimasukkan lengkap, aplikasi menerapkan validasi sebelum data disimpan ke dalam database.
 
@@ -398,9 +398,11 @@ Contoh pesan yang muncul:
 
 Validasi ini memastikan bahwa data soal yang disimpan ke dalam database sudah lengkap sehingga dapat ditampilkan dengan benar pada halaman kuis.
 
+---
+
 ### 5. Validasi pada Form Edit Soal (Admin)
 
-<img width="200" height="430" alt="Image" src="https://github.com/user-attachments/assets/1b64d274-9c1e-4c41-8313-49fe1aed6136" />
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/1b64d274-9c1e-4c41-8313-49fe1aed6136" />
 
 Selain menambahkan soal baru, admin juga dapat mengedit soal yang sudah ada. Pada proses ini, sistem tetap melakukan pengecekan agar data soal tidak diubah menjadi kosong.
 
@@ -410,6 +412,6 @@ Jika admin menghapus isi salah satu kolom seperti pertanyaan atau pilihan jawaba
 
 Contoh pesan yang muncul:
 
-Semua kolom harus diisi
+> Semua kolom harus diisi
 
 Validasi ini bertujuan untuk menjaga agar data soal yang tersimpan di database tetap lengkap dan dapat digunakan dengan baik saat proses kuis berlangsung.
