@@ -299,5 +299,94 @@ Pada aplikasi kuis literasi digital ini saya menggunakan beberapa widget utama d
 
 ---
 
+## Validasi Input pada Aplikasi
 
+Pada aplikasi kuis literasi digital yang saya kembangkan, beberapa halaman dilengkapi dengan validasi input. Tujuan dari validasi ini adalah untuk memastikan data yang dimasukkan oleh pengguna sudah sesuai sebelum diproses oleh sistem. Dengan adanya validasi ini, aplikasi dapat mencegah kesalahan input seperti data kosong, format email yang tidak benar, atau password yang tidak memenuhi ketentuan.
+
+
+### 1. Validasi pada Halaman Login
+
+Halaman login digunakan oleh pengguna untuk masuk ke dalam aplikasi menggunakan akun yang sudah terdaftar. Pada halaman ini terdapat validasi yang akan memeriksa apakah data yang dimasukkan sesuai dengan data akun yang tersimpan pada sistem.
+
+#### a. Validasi Email atau Password Salah
+
+Jika pengguna memasukkan email atau password yang tidak sesuai dengan data yang tersimpan di sistem, maka aplikasi akan menampilkan pesan kesalahan.
+
+Contoh pesan yang muncul:
+
+> Email atau password salah
+
+Validasi ini bertujuan untuk memastikan bahwa hanya pengguna yang memiliki akun yang valid yang dapat masuk ke dalam aplikasi.
+
+---
+
+### 2. Validasi pada Halaman Register
+
+Halaman register digunakan untuk membuat akun baru sebelum pengguna dapat menggunakan aplikasi. Pada halaman ini terdapat beberapa validasi yang digunakan untuk memastikan data yang dimasukkan sudah benar.
+
+#### a. Validasi Nama Tidak Boleh Kosong
+
+Ketika pengguna menekan tombol **Register** tanpa mengisi nama lengkap, aplikasi akan menampilkan pesan bahwa kolom tersebut wajib diisi.
+
+Contoh pesan yang muncul:
+
+> Wajib diisi
+
+Validasi ini bertujuan agar setiap akun memiliki identitas pengguna yang jelas.
+
+---
+
+#### b. Validasi Format Email
+
+Sistem akan memeriksa apakah email yang dimasukkan memiliki format yang benar. Jika format email tidak sesuai, maka aplikasi akan menampilkan pesan kesalahan.
+
+Contoh pesan yang muncul:
+
+> Format email tidak valid
+
+Validasi ini membantu memastikan bahwa email yang digunakan dapat dikenali oleh sistem autentikasi.
+
+---
+
+#### c. Validasi Panjang Password
+
+Password yang dimasukkan oleh pengguna harus memiliki minimal 8 karakter. Jika password yang dimasukkan terlalu pendek, maka aplikasi akan menampilkan pesan peringatan.
+
+Contoh pesan yang muncul:
+
+> Password minimal 8 karakter
+
+Tujuan dari validasi ini adalah untuk meningkatkan keamanan akun pengguna.
+
+---
+
+### 3. Validasi pada Halaman Update Password
+
+Pada halaman profil, pengguna dapat mengganti password akun yang sedang digunakan. Saat proses ini dilakukan, aplikasi akan memeriksa apakah password lama yang dimasukkan sudah benar.
+
+#### a. Validasi Password Lama
+
+Jika password lama yang dimasukkan tidak sesuai dengan password akun yang tersimpan di sistem, maka aplikasi akan menampilkan pesan kesalahan.
+
+Contoh pesan yang muncul:
+
+> Password lama salah
+
+Validasi ini bertujuan untuk memastikan bahwa perubahan password hanya dapat dilakukan oleh pemilik akun yang sah.
+
+---
+
+### 4. Validasi pada Form Tambah dan Edit Soal (Admin)
+
+Pada halaman admin, terdapat form yang digunakan untuk menambahkan atau mengedit soal kuis. Form ini memiliki beberapa kolom seperti kategori soal, pertanyaan, pilihan jawaban, serta jawaban yang benar. Untuk memastikan data yang dimasukkan lengkap, aplikasi menerapkan validasi sebelum data disimpan ke dalam database.
+
+#### a. Validasi Kolom Tidak Boleh Kosong
+
+Jika admin menekan tombol **Simpan** tanpa mengisi seluruh kolom yang tersedia, maka aplikasi akan menampilkan pesan peringatan.
+
+Contoh pesan yang muncul:
+
+> Semua kolom harus diisi
+
+Validasi ini memastikan bahwa data soal yang disimpan ke dalam database sudah lengkap sehingga dapat ditampilkan dengan benar pada halaman kuis.
 
