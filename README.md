@@ -74,7 +74,6 @@ Folder **pages** berisi seluruh halaman utama yang ditampilkan dalam aplikasi.
 Beberapa halaman yang terdapat di dalamnya antara lain:
 
 - **home_page.dart**
-  <img width="146" height="30" alt="Image" src="https://github.com/user-attachments/assets/b0a2e926-45c4-49a8-8168-53c33cbabe39" />
   Halaman utama aplikasi yang menampilkan kategori literasi digital seperti Etika Digital, Keamanan Digital, dan Data Pribadi.
 
 - **materi_page.dart**  
@@ -101,6 +100,8 @@ Beberapa halaman yang terdapat di dalamnya antara lain:
 ---
 
 ### 🔗 Folder Services
+
+<img width="190" height="52" alt="Image" src="https://github.com/user-attachments/assets/285c30d3-ad6e-4b47-b91e-bf810685aa11" />
 
 Folder **services** saya gunakan untuk mengatur proses komunikasi antara aplikasi dengan database **Supabase**. Di dalam folder ini terdapat file `supabase_service.dart` yang berisi beberapa fungsi yang saya gunakan untuk mengakses database, seperti proses login, register, mengambil data soal, menambahkan soal baru, mengubah soal, serta menghapus soal. Dengan memisahkan bagian ini ke dalam services, pengelolaan akses database menjadi lebih terstruktur dan tidak tercampur langsung dengan kode tampilan pada halaman aplikasi.
 
