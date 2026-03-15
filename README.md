@@ -66,9 +66,7 @@ Folder **pages** berisi seluruh halaman utama yang ditampilkan dalam aplikasi.
 Beberapa halaman yang terdapat di dalamnya antara lain:
 
 - **home_page.dart**
-
   <img width="146" height="30" alt="Image" src="https://github.com/user-attachments/assets/b0a2e926-45c4-49a8-8168-53c33cbabe39" />
-
   Halaman utama aplikasi yang menampilkan kategori literasi digital seperti Etika Digital, Keamanan Digital, dan Data Pribadi.
 
 - **materi_page.dart**  
