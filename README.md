@@ -281,28 +281,30 @@ Pada aplikasi kuis literasi digital ini saya menggunakan beberapa widget utama d
 
 • Halaman Materi
 
-<img width="471" height="905" alt="Image" src="https://github.com/user-attachments/assets/55bc2d68-ec06-4d1b-bfb6-405585c50eb5" />
+
 
 • Halaman Kuis
 
-<img width="471" height="906" alt="Image" src="https://github.com/user-attachments/assets/6a90505f-3753-4be4-80b8-076df3fb69f0" />
+<img width="471" height="905" alt="Image" src="https://github.com/user-attachments/assets/55bc2d68-ec06-4d1b-bfb6-405585c50eb5" />
 
 • Tampilan Hasil Skor
 
-<img width="468" height="906" alt="Image" src="https://github.com/user-attachments/assets/10de11d7-e69e-4a04-8b63-7163ce7d2a09" />
+<img width="471" height="906" alt="Image" src="https://github.com/user-attachments/assets/6a90505f-3753-4be4-80b8-076df3fb69f0" />
 
 • Halaman Profile (User)
 
-<img width="466" height="902" alt="Image" src="https://github.com/user-attachments/assets/4c572f2b-e0ca-4e5f-bed7-4f3dfb098ba1" />
+<img width="468" height="906" alt="Image" src="https://github.com/user-attachments/assets/10de11d7-e69e-4a04-8b63-7163ce7d2a09" />
 
 • Halaman Kelola Soal (Admin)
 
-<img width="467" height="905" alt="Image" src="https://github.com/user-attachments/assets/7e0f864b-8383-4bb1-ac46-10edee18e5ba" />
+<img width="466" height="902" alt="Image" src="https://github.com/user-attachments/assets/4c572f2b-e0ca-4e5f-bed7-4f3dfb098ba1" />
 
 • Halaman Tambah Soal (Admin)
 
-<img width="468" height="907" alt="Image" src="https://github.com/user-attachments/assets/3b66daa5-9f5d-4f3d-95da-22f070d47d29" />
+<img width="467" height="905" alt="Image" src="https://github.com/user-attachments/assets/7e0f864b-8383-4bb1-ac46-10edee18e5ba" />
 
 • Halaman Edit Soal (Admin)
 
-![Edit Soal](link_gambar)
+<img width="468" height="907" alt="Image" src="https://github.com/user-attachments/assets/3b66daa5-9f5d-4f3d-95da-22f070d47d29" />
+
+
