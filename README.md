@@ -267,39 +267,41 @@ Pada aplikasi kuis literasi digital ini saya menggunakan beberapa widget utama d
 
 • Halaman Login
 
-![Login](link_gambar)
+<img width="470" height="900" alt="Image" src="https://github.com/user-attachments/assets/49ac19a7-2ec7-45d4-9c17-3caaf81e3e69" />
+
+<img width="468" height="907" alt="Image" src="https://github.com/user-attachments/assets/3b66daa5-9f5d-4f3d-95da-22f070d47d29" />
 
 • Halaman Register
 
-![Register](link_gambar)
+<img width="470" height="900" alt="Image" src="https://github.com/user-attachments/assets/499a3b95-160d-48fb-8ef6-8f422970d63d" />
 
 • Halaman Home
 
-![Home](link_gambar)
+<img width="472" height="901" alt="Image" src="https://github.com/user-attachments/assets/b477db76-8e85-407d-964a-2306329083a9" />
 
 • Halaman Materi
 
-![Materi](link_gambar)
+<img width="471" height="905" alt="Image" src="https://github.com/user-attachments/assets/55bc2d68-ec06-4d1b-bfb6-405585c50eb5" />
 
 • Halaman Kuis
 
-![Quiz](link_gambar)
+<img width="471" height="906" alt="Image" src="https://github.com/user-attachments/assets/6a90505f-3753-4be4-80b8-076df3fb69f0" />
 
 • Tampilan Hasil Skor
 
-![Skor](link_gambar)
+<img width="468" height="906" alt="Image" src="https://github.com/user-attachments/assets/10de11d7-e69e-4a04-8b63-7163ce7d2a09" />
 
 • Halaman Profile (User)
 
-![Profile](link_gambar)
+<img width="466" height="902" alt="Image" src="https://github.com/user-attachments/assets/4c572f2b-e0ca-4e5f-bed7-4f3dfb098ba1" />
 
 • Halaman Kelola Soal (Admin)
 
-![Admin](link_gambar)
+<img width="467" height="905" alt="Image" src="https://github.com/user-attachments/assets/7e0f864b-8383-4bb1-ac46-10edee18e5ba" />
 
 • Halaman Tambah Soal (Admin)
 
-![Tambah Soal](link_gambar)
+<img width="468" height="907" alt="Image" src="https://github.com/user-attachments/assets/3b66daa5-9f5d-4f3d-95da-22f070d47d29" />
 
 • Halaman Edit Soal (Admin)
 
