@@ -31,3 +31,104 @@ Struktur project yang saya gunakan mengikuti struktur standar dari framework **F
 ### 📁 Folder `lib`
 
 Folder **lib** merupakan bagian paling penting dalam project karena seluruh kode utama aplikasi berada di dalam folder ini. Di dalam folder ini saya mengatur logika aplikasi, tampilan halaman, serta model data yang digunakan oleh aplikasi.
+
+<img width="257" height="393" alt="Image" src="https://github.com/user-attachments/assets/690c29ed-de2c-476b-94af-b62050fb8270" />
+
+
+---
+
+### 🧠 Folder `models`
+
+Folder **models** digunakan untuk menyimpan struktur data yang digunakan dalam aplikasi.  
+Pada aplikasi ini terdapat file:
+
+`question_model.dart`
+
+
+
+File ini digunakan untuk merepresentasikan struktur data **soal kuis** yang tersimpan di database Supabase, seperti:
+
+- kategori soal  
+- pertanyaan  
+- pilihan jawaban A, B, C, dan D  
+- jawaban yang benar  
+
+Dengan menggunakan model ini, proses pengambilan dan pengolahan data dari database menjadi lebih rapi dan terstruktur.
+
+---
+
+### 📱 Folder `pages`
+
+Folder **pages** berisi seluruh halaman utama yang ditampilkan dalam aplikasi.
+
+Beberapa halaman yang terdapat di dalamnya antara lain:
+
+- **home_page.dart**  
+  Halaman utama aplikasi yang menampilkan kategori literasi digital seperti Etika Digital, Keamanan Digital, dan Data Pribadi.
+
+- **materi_page.dart**  
+  Halaman yang menampilkan materi pembelajaran singkat sebelum pengguna memulai kuis.
+
+- **quiz_page.dart**  
+  Halaman yang digunakan untuk menampilkan soal kuis dan pilihan jawaban yang dapat dipilih oleh pengguna.
+
+- **profile_page.dart**  
+  Halaman profil pengguna yang berisi informasi akun, fitur update password, logout, serta hapus akun.
+
+- **admin_question_page.dart**  
+  Halaman khusus admin yang digunakan untuk melihat daftar soal yang tersimpan di database.
+
+- **admin_form_question_page.dart**  
+  Halaman form yang digunakan admin untuk menambahkan atau mengedit soal kuis.
+
+- **login_page.dart**  
+  Halaman login yang digunakan pengguna untuk masuk ke dalam aplikasi menggunakan akun yang sudah terdaftar.
+
+- **register_page.dart**  
+  Halaman pendaftaran akun baru menggunakan Supabase Authentication.
+
+---
+
+### 🚀 File `main.dart`
+
+File **main.dart** merupakan file utama dalam aplikasi Flutter yang pertama kali dijalankan saat aplikasi dibuka.
+
+Pada file ini saya melakukan beberapa konfigurasi penting seperti:
+
+- Inisialisasi **Supabase**
+- Menentukan halaman awal aplikasi
+- Mengatur navigasi antar halaman
+
+Sehingga aplikasi dapat berjalan dengan baik sejak pertama kali dijalankan.
+
+---
+
+### 🖼️ Folder `assets`
+
+Selain folder kode program, aplikasi ini juga menggunakan folder **assets** yang berisi berbagai file tambahan untuk mendukung tampilan aplikasi.
+
+Di dalam folder ini terdapat beberapa file seperti:
+
+- **images** → berisi gambar background yang digunakan dalam aplikasi  
+- **font** → font tambahan yang digunakan untuk mempercantik tampilan aplikasi
+
+Gambar-gambar ini digunakan pada beberapa halaman seperti **home, materi, kuis, dan halaman admin** agar tampilan aplikasi terlihat lebih menarik.
+
+---
+
+### ⚙️ File `pubspec.yaml`
+
+File **pubspec.yaml** digunakan untuk mengatur dependency atau library yang digunakan dalam project Flutter.
+
+Pada file ini juga didaftarkan berbagai assets seperti gambar dan font agar dapat digunakan di dalam aplikasi.
+
+---
+
+### 🔐 File `.env`
+
+Karena aplikasi ini menggunakan **database Supabase**, maka konfigurasi penting seperti **Supabase URL dan API Key** tidak langsung dituliskan di dalam source code.
+
+Sebagai gantinya, data tersebut disimpan di dalam file **`.env`** agar informasi sensitif tetap aman dan tidak terlihat langsung di dalam kode program.
+
+
+
