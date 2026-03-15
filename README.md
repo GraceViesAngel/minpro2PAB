@@ -61,6 +61,8 @@ Dengan menggunakan model ini, proses pengambilan dan pengolahan data dari databa
 
 Folder **pages** berisi seluruh halaman utama yang ditampilkan dalam aplikasi.
 
+<img width="254" height="210" alt="Image" src="https://github.com/user-attachments/assets/bfaa64ab-90a7-4386-ad8d-ff122208b66b" />
+
 Beberapa halaman yang terdapat di dalamnya antara lain:
 
 - **home_page.dart**  
