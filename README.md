@@ -415,3 +415,117 @@ Contoh pesan yang muncul:
 > Semua kolom harus diisi
 
 Validasi ini bertujuan untuk menjaga agar data soal yang tersimpan di database tetap lengkap dan dapat digunakan dengan baik saat proses kuis berlangsung.
+
+---
+
+## Alur Tampilan Aplikasi
+
+Berikut adalah alur penggunaan aplikasi kuis literasi digital yang telah saya kembangkan. Di sini dapat dilihat bagaimana pengguna menggunakan aplikasi mulai dari membuka aplikasi, melakukan login atau register, hingga masuk ke halaman utama untuk memilih kategori materi. Setelah membaca materi yang tersedia, pengguna dapat melanjutkan ke halaman kuis untuk menjawab beberapa soal yang diberikan. Di akhir kuis, aplikasi akan menampilkan hasil skor yang diperoleh pengguna. Selain itu, saya juga menyediakan halaman profil serta halaman khusus admin yang digunakan untuk mengelola soal kuis di dalam aplikasi.
+
+---
+
+### 1. Halaman Login
+
+Saat aplikasi pertama kali dibuka, pengguna akan langsung diarahkan ke halaman login. Pada halaman ini pengguna diminta untuk memasukkan email dan password yang sudah terdaftar sebelumnya. Jika pengguna belum memiliki akun, maka pengguna dapat memilih menu **Register** untuk membuat akun terlebih dahulu.
+
+Setelah email dan password dimasukkan dengan benar, pengguna dapat menekan tombol **Login** untuk masuk ke dalam aplikasi dan melanjutkan ke halaman utama.
+
+**Tampilan Halaman Login**
+
+
+
+---
+
+### 2. Halaman Register
+
+Halaman register digunakan oleh pengguna yang belum memiliki akun. Pada halaman ini pengguna diminta untuk mengisi beberapa data seperti **nama lengkap, email, dan password**.
+
+Jika seluruh data sudah diisi dengan benar, pengguna dapat menekan tombol **Register** untuk membuat akun baru. Setelah proses pendaftaran berhasil, pengguna dapat kembali ke halaman login untuk masuk ke dalam aplikasi menggunakan akun yang sudah dibuat.
+
+**Tampilan Halaman Register**
+
+![Halaman Register](TARUH_FOTO_REGISTER_DISINI)
+
+---
+
+### 3. Halaman Home
+
+Setelah berhasil login, pengguna akan masuk ke halaman utama aplikasi. Pada halaman ini ditampilkan beberapa kategori literasi digital yang tersedia di dalam aplikasi.
+
+Pengguna dapat memilih salah satu kategori yang ingin dipelajari. Dari halaman ini pengguna dapat melanjutkan ke halaman materi sebelum mengerjakan kuis.
+
+**Tampilan Halaman Home**
+
+![Halaman Home](TARUH_FOTO_HOME_DISINI)
+
+---
+
+### 4. Halaman Materi
+
+Setelah memilih kategori, pengguna akan diarahkan ke halaman materi. Pada halaman ini terdapat penjelasan singkat mengenai topik literasi digital yang dipilih.
+
+Materi ini disediakan agar pengguna dapat memahami terlebih dahulu isi materi sebelum mulai mengerjakan kuis.
+
+**Tampilan Halaman Materi**
+
+![Halaman Materi](TARUH_FOTO_MATERI_DISINI)
+
+---
+
+### 5. Halaman Kuis
+
+Setelah membaca materi, pengguna dapat melanjutkan ke halaman kuis. Pada halaman ini pengguna akan menjawab beberapa soal pilihan ganda yang berkaitan dengan materi yang telah dipelajari.
+
+Pengguna cukup memilih salah satu jawaban yang dianggap benar dari pilihan jawaban yang tersedia.
+
+**Tampilan Halaman Kuis**
+
+![Halaman Kuis](TARUH_FOTO_KUIS_DISINI)
+
+---
+
+### 6. Tampilan Hasil Skor
+
+Setelah seluruh soal selesai dijawab, aplikasi akan menampilkan hasil skor dari kuis yang telah dikerjakan. Skor dihitung berdasarkan jumlah jawaban yang benar dari semua soal yang tersedia.
+
+Dengan adanya hasil skor ini, pengguna dapat mengetahui sejauh mana pemahaman mereka terhadap materi yang telah dipelajari sebelumnya.
+
+**Tampilan Hasil Skor**
+
+![Halaman Skor](TARUH_FOTO_SKOR_DISINI)
+
+---
+
+### 7. Halaman Profil
+
+Aplikasi ini juga menyediakan halaman profil yang menampilkan informasi akun pengguna yang sedang login. Pada halaman ini pengguna dapat melihat data akun seperti **nama dan email**.
+
+Selain itu terdapat beberapa fitur tambahan seperti **update password, logout, serta hapus akun** jika pengguna sudah tidak ingin menggunakan aplikasi lagi.
+
+**Tampilan Halaman Profil**
+
+![Halaman Profil](TARUH_FOTO_PROFIL_DISINI)
+
+---
+
+### 8. Halaman Kelola Soal (Admin)
+
+Selain digunakan oleh pengguna untuk mengerjakan kuis, aplikasi ini juga menyediakan halaman khusus admin yang digunakan untuk mengelola data soal yang tersimpan di database.
+
+Pada halaman ini admin dapat melihat daftar soal yang tersedia serta melakukan pengelolaan data soal.
+
+**Tampilan Halaman Kelola Soal**
+
+![Halaman Admin](TARUH_FOTO_ADMIN_DISINI)
+
+---
+
+### 9. Halaman Form Tambah dan Edit Soal
+
+Ketika admin ingin menambahkan soal baru atau mengedit soal yang sudah ada, sistem akan menampilkan form yang berisi beberapa kolom seperti **kategori soal, pertanyaan, pilihan jawaban, serta jawaban yang benar**.
+
+Sebelum data disimpan ke database, aplikasi akan melakukan pengecekan untuk memastikan semua kolom telah diisi. Jika ada kolom yang kosong, maka aplikasi akan menampilkan pesan bahwa semua kolom harus diisi.
+
+**Tampilan Form Soal**
+
+![Halaman Form Soal](TARUH_FOTO_FORM_SOAL_DISINI)
