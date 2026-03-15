@@ -109,11 +109,15 @@ Folder **services** saya gunakan untuk mengatur proses komunikasi antara aplikas
 
 ### 🚀 File main.dart
 
+<img width="126" height="33" alt="Image" src="https://github.com/user-attachments/assets/ba0133ae-8528-4030-baec-bbca04d5d73c" />
+
 File `main.dart` merupakan file utama dalam aplikasi Flutter yang pertama kali dijalankan ketika aplikasi dibuka. Pada file ini saya mengatur konfigurasi awal aplikasi, seperti proses inisialisasi Supabase agar aplikasi dapat terhubung dengan database yang digunakan. Selain itu, di dalam file ini juga ditentukan halaman awal yang akan ditampilkan ketika aplikasi dijalankan serta pengaturan navigasi antar halaman sehingga pengguna dapat berpindah dari satu halaman ke halaman lainnya dengan lancar.
 
 ---
 
 ### 🖼️ Folder Assets
+
+<img width="152" height="104" alt="Image" src="https://github.com/user-attachments/assets/85334f6b-6dd0-455a-918a-aaef08b1c9a9" />
 
 Selain kode program utama, aplikasi ini juga menggunakan folder **assets** yang berisi berbagai gambar yang digunakan untuk mempercantik tampilan aplikasi. Gambar-gambar tersebut digunakan sebagai background pada beberapa halaman seperti halaman home, materi, kuis, serta halaman admin. Dengan penggunaan gambar pada folder assets ini, tampilan aplikasi menjadi lebih menarik dan tidak terlihat terlalu kosong saat digunakan.
 
@@ -121,17 +125,17 @@ Selain kode program utama, aplikasi ini juga menggunakan folder **assets** yang 
 
 ### ⚙️ File `pubspec.yaml`
 
-File **pubspec.yaml** digunakan untuk mengatur dependency atau library yang digunakan dalam project Flutter.
+<img width="78" height="28" alt="Image" src="https://github.com/user-attachments/assets/4ed9e2ff-99b2-4d0a-9757-3518e61a5239" />
 
-Pada file ini juga didaftarkan berbagai assets seperti gambar dan font agar dapat digunakan di dalam aplikasi.
+File **pubspec.yaml** digunakan untuk mengatur dependency atau library yang digunakan dalam project Flutter. Pada file ini juga didaftarkan berbagai assets seperti gambar dan font agar dapat digunakan di dalam aplikasi.
 
 ---
 
 ### 🔐 File `.env`
 
-Karena aplikasi ini menggunakan **database Supabase**, maka konfigurasi penting seperti **Supabase URL dan API Key** tidak langsung dituliskan di dalam source code.
+<img width="122" height="29" alt="Image" src="https://github.com/user-attachments/assets/f13b7bcf-2f5d-4f11-8092-6a7b377ebcfb" />
 
-Sebagai gantinya, data tersebut disimpan di dalam file **`.env`** agar informasi sensitif tetap aman dan tidak terlihat langsung di dalam kode program.
+Karena aplikasi ini menggunakan **database Supabase**, maka konfigurasi penting seperti **Supabase URL dan API Key** tidak langsung dituliskan di dalam source code. Sebagai gantinya, data tersebut disimpan di dalam file **`.env`** agar informasi sensitif tetap aman dan tidak terlihat langsung di dalam kode program.
 
 
 
