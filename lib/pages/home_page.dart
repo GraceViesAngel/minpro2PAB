@@ -107,7 +107,6 @@ class _HomePageState extends State<HomePage> {
 
                         const SizedBox(height: 30),
 
-                        /// GLASS KATEGORI TITLE
                         ClipRRect(
                           borderRadius: BorderRadius.circular(15),
 
@@ -194,7 +193,6 @@ class _HomePageState extends State<HomePage> {
                           ),
                         );
 
-                        /// refresh home setelah kembali dari admin
                         setState(() {});
                       },
 
