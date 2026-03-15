@@ -432,13 +432,7 @@ Setelah email dan password dimasukkan dengan benar, pengguna dapat menekan tombo
 
 **Tampilan Halaman Login**
 
-<img width="470" height="906" alt="Image" src="https://github.com/user-attachments/assets/310c8865-0510-420c-8c70-07f920610efb" />
-
-<img width="467" height="896" alt="Image" src="https://github.com/user-attachments/assets/c536e98f-80f1-4752-8df1-95b99ef32693" />
-
-<img width="464" height="906" alt="Image" src="https://github.com/user-attachments/assets/97adc944-124e-4e83-810c-d140487c9b7c" />
-
-<img width="467" height="906" alt="Image" src="https://github.com/user-attachments/assets/a8020581-1fb4-4161-8221-199fa41dbd44" />
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/310c8865-0510-420c-8c70-07f920610efb" />
 
 ---
 
@@ -450,7 +444,7 @@ Jika seluruh data sudah diisi dengan benar, pengguna dapat menekan tombol **Regi
 
 **Tampilan Halaman Register**
 
-<img width="465" height="902" alt="Image" src="https://github.com/user-attachments/assets/c9fed8ca-7709-4749-8dd7-22662e5121c7" />
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/c9fed8ca-7709-4749-8dd7-22662e5121c7" />
 
 ---
 
@@ -462,7 +456,7 @@ Pengguna dapat memilih salah satu kategori yang ingin dipelajari. Dari halaman i
 
 **Tampilan Halaman Home**
 
-<img width="466" height="904" alt="Image" src="https://github.com/user-attachments/assets/c86698a4-1726-43ae-918b-84c9fcdb20a1" />
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/c86698a4-1726-43ae-918b-84c9fcdb20a1" />
 
 ---
 
@@ -474,7 +468,7 @@ Materi ini disediakan agar pengguna dapat memahami terlebih dahulu isi materi se
 
 **Tampilan Halaman Materi**
 
-<img width="459" height="902" alt="Image" src="https://github.com/user-attachments/assets/66a13553-078c-4f17-8aba-dae7c703d1a2" />
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/66a13553-078c-4f17-8aba-dae7c703d1a2" />
 
 ---
 
@@ -486,7 +480,7 @@ Pengguna cukup memilih salah satu jawaban yang dianggap benar dari pilihan jawab
 
 **Tampilan Halaman Kuis**
 
-<img width="464" height="904" alt="Image" src="https://github.com/user-attachments/assets/597472bc-8d9e-4a2c-ae62-ab1ae04dbe15" />
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/597472bc-8d9e-4a2c-ae62-ab1ae04dbe15" />
 
 ---
 
@@ -498,7 +492,7 @@ Dengan adanya hasil skor ini, pengguna dapat mengetahui sejauh mana pemahaman me
 
 **Tampilan Hasil Skor**
 
-<img width="463" height="900" alt="Image" src="https://github.com/user-attachments/assets/b30d800f-7bfc-4c3f-aaa3-86259fca202e" />
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/b30d800f-7bfc-4c3f-aaa3-86259fca202e" />
 
 ---
 
@@ -510,7 +504,7 @@ Selain itu terdapat beberapa fitur tambahan seperti **update password, logout, s
 
 **Tampilan Halaman Profil**
 
-<img width="467" height="896" alt="Image" src="https://github.com/user-attachments/assets/c536e98f-80f1-4752-8df1-95b99ef32693" />
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/c536e98f-80f1-4752-8df1-95b99ef32693" />
 
 ---
 
@@ -522,7 +516,7 @@ Pada halaman ini admin dapat melihat daftar soal yang tersedia serta melakukan p
 
 **Tampilan Halaman Kelola Soal**
 
-<img width="467" height="896" alt="Image" src="https://github.com/user-attachments/assets/c536e98f-80f1-4752-8df1-95b99ef32693" />
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/97adc944-124e-4e83-810c-d140487c9b7c" />
 
 ---
 
@@ -534,4 +528,4 @@ Sebelum data disimpan ke database, aplikasi akan melakukan pengecekan untuk mema
 
 **Tampilan Form Soal**
 
-![Halaman Form Soal](TARUH_FOTO_FORM_SOAL_DISINI)
+<img width="340" height="500" alt="Image" src="https://github.com/user-attachments/assets/a8020581-1fb4-4161-8221-199fa41dbd44" />
