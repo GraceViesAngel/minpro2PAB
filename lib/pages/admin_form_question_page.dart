@@ -40,7 +40,6 @@ class _AdminFormQuestionPageState extends State<AdminFormQuestionPage> {
   }
 
   Future<void> save() async {
-    // VALIDASI INPUT
     if (kategori.text.isEmpty ||
         question.text.isEmpty ||
         a.text.isEmpty ||
