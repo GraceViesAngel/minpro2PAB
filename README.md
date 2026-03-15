@@ -141,49 +141,24 @@ Karena aplikasi ini menggunakan **database Supabase**, maka konfigurasi penting 
 
 ## Fitur Aplikasi
 
-Aplikasi **Kuis Literasi Digital** yang saya kembangkan memiliki beberapa fitur utama yang mendukung proses pembelajaran serta pengelolaan soal kuis. Fitur-fitur ini juga dibuat sesuai dengan ketentuan tugas yang diberikan, seperti penerapan operasi CRUD, navigasi antar halaman, serta integrasi database menggunakan Supabase.
+Dalam aplikasi **Kuis Literasi Digital** yang saya kembangkan terdapat beberapa fitur utama yang mendukung proses pembelajaran serta pengelolaan soal kuis. Fitur-fitur ini dibuat sesuai dengan ketentuan tugas seperti penerapan CRUD, navigasi antar halaman, serta integrasi database menggunakan Supabase.
 
-• **Login Pengguna**  
-Fitur login digunakan agar pengguna dapat masuk ke dalam aplikasi menggunakan akun yang sudah terdaftar. Proses login dilakukan menggunakan Supabase Authentication dengan email dan password. Setelah berhasil login, pengguna akan diarahkan ke halaman utama aplikasi.
-
-• **Register Akun**  
-Fitur register memungkinkan pengguna membuat akun baru sebelum menggunakan aplikasi. Pada halaman ini pengguna diminta mengisi email dan password yang nantinya akan disimpan melalui sistem autentikasi Supabase.
-
-• **Materi Literasi Digital**  
-Sebelum mengerjakan kuis, pengguna dapat membaca materi singkat mengenai literasi digital. Materi yang tersedia dalam aplikasi ini meliputi beberapa topik seperti Etika Digital, Keamanan Digital, dan Data Pribadi.
-
-• **Kuis Pilihan Ganda**  
-Pengguna dapat mengerjakan kuis yang berisi beberapa pertanyaan pilihan ganda sesuai dengan kategori yang dipilih. Pengguna memilih jawaban yang dianggap benar dan sistem akan memproses jawaban tersebut.
-
-• **Perhitungan Skor Kuis**  
-Setelah semua soal selesai dijawab, aplikasi akan menampilkan hasil skor kuis. Skor dihitung berdasarkan jumlah jawaban benar dari seluruh soal yang dikerjakan.
-
-• **Kelola Soal (Admin)**  
-Aplikasi menyediakan halaman khusus admin yang digunakan untuk melihat daftar soal yang tersimpan di database Supabase.
-
-• **Menambah Soal (Create)**  
-Admin dapat menambahkan soal baru melalui form tambah soal dengan mengisi beberapa field seperti kategori, pertanyaan, pilihan jawaban, serta jawaban yang benar.
-
-• **Mengedit Soal (Update)**  
-Admin dapat memperbarui atau mengedit soal yang sudah ada di database jika diperlukan perubahan.
-
-• **Menghapus Soal (Delete)**  
-Admin dapat menghapus soal dari database sehingga data soal dapat dikelola dengan lebih rapi.
-
-• **Halaman Profil**  
-Aplikasi menyediakan halaman profil yang menampilkan informasi akun pengguna yang sedang login.
-
-• **Update Password**  
-Pengguna dapat mengganti password akun melalui halaman profil untuk menjaga keamanan akun.
-
-• **Logout**  
-Fitur logout digunakan agar pengguna dapat keluar dari akun yang sedang digunakan.
-
-• **Hapus Akun**  
-Pengguna dapat menghapus akun yang telah dibuat jika sudah tidak ingin menggunakan aplikasi.
-
-• **Validasi Input**  
-Pada beberapa form seperti login, register, dan tambah soal, saya menambahkan validasi input untuk memastikan data yang dimasukkan tidak kosong sehingga dapat mengurangi kesalahan saat penyimpanan data.
+| Fitur | Keterangan |
+|------|-------------|
+| Login Pengguna | Digunakan agar pengguna dapat masuk ke dalam aplikasi menggunakan akun yang sudah terdaftar melalui Supabase Authentication dengan email dan password. |
+| Register Akun | Memungkinkan pengguna membuat akun baru sebelum menggunakan aplikasi dengan memasukkan email dan password. |
+| Materi Literasi Digital | Menyediakan materi pembelajaran singkat mengenai literasi digital seperti Etika Digital, Keamanan Digital, dan Data Pribadi. |
+| Kuis Pilihan Ganda | Pengguna dapat mengerjakan kuis yang berisi beberapa pertanyaan pilihan ganda sesuai kategori yang dipilih. |
+| Perhitungan Skor Kuis | Setelah kuis selesai, aplikasi akan menampilkan skor berdasarkan jumlah jawaban yang benar. |
+| Kelola Soal (Admin) | Admin dapat melihat daftar soal yang tersimpan di database Supabase. |
+| Menambah Soal (Create) | Admin dapat menambahkan soal baru melalui form tambah soal dengan mengisi kategori, pertanyaan, pilihan jawaban, dan jawaban yang benar. |
+| Mengedit Soal (Update) | Admin dapat memperbarui soal yang sudah ada di database jika diperlukan perubahan. |
+| Menghapus Soal (Delete) | Admin dapat menghapus soal dari database agar data tetap rapi dan terkelola. |
+| Halaman Profil | Menampilkan informasi akun pengguna yang sedang login. |
+| Update Password | Pengguna dapat mengganti password akun melalui halaman profil untuk menjaga keamanan akun. |
+| Logout | Digunakan untuk keluar dari akun yang sedang digunakan. |
+| Hapus Akun | Memungkinkan pengguna menghapus akun yang telah dibuat jika sudah tidak ingin menggunakan aplikasi. |
+| Validasi Input | Pada beberapa form seperti login, register, dan tambah soal terdapat validasi agar data yang dimasukkan tidak kosong. |
 
 ---
 
@@ -191,11 +166,10 @@ Pada beberapa form seperti login, register, dan tambah soal, saya menambahkan va
 
 Saya juga menambahkan beberapa fitur tambahan untuk meningkatkan kualitas aplikasi yang telah saya buat.
 
-• **Login dan Register menggunakan Supabase Authentication**  
-Aplikasi menggunakan sistem autentikasi Supabase sehingga proses login dan register dapat dilakukan secara aman dan terintegrasi dengan database.
-
-• **Penggunaan File .env**  
-Konfigurasi penting seperti Supabase URL dan API Key tidak langsung dituliskan di dalam source code, tetapi disimpan dalam file `.env` agar data sensitif lebih aman.
+| Fitur Tambahan | Keterangan |
+|---------------|------------|
+| Login dan Register menggunakan Supabase Authentication | Sistem autentikasi Supabase digunakan untuk mengelola proses login dan register sehingga akun pengguna dapat terintegrasi langsung dengan database. |
+| Penggunaan File .env | Konfigurasi penting seperti Supabase URL dan API Key tidak langsung dituliskan di dalam source code, tetapi disimpan dalam file `.env` agar informasi sensitif lebih aman. |
 
 ---
 
